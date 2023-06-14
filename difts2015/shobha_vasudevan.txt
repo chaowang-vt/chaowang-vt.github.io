@@ -1,0 +1,25 @@
+Bio:
+
+Shobha Vasudevan is an associate professor at the Electrical and
+Computer Engineering department at the University of Illinois at
+Urbana-Champaign. Her research interests are in system verification
+and security, analog and digital hardware validation, formal, static
+analysis and statistical algorithms, machine learning and causal
+inferencing in big data and biomedical device modeling. 
+
+Her research software for automatic assertion generation, GoldMine, is
+being licensed by several companies including IBM, AMD, Qualcomm,
+Huawei Technologies, TI, Oracle, and is being developed by a leading
+EDA company into a commercial product.
+
+She is a technical consultant for several companies. She is the
+recipient of the Best Paper Award in DAC 2014, NSF CAREER award, the
+ACM SIGDA outstanding new faculty award, the Dean's Award for
+Excellence in Research, Best paper award in VLSI Design 2014, IEEE
+Council of EDA Early Career Award, the YWCA award for mentoring women
+and several best paper nominations. She has conceptualized and leads
+MyTri, an initiative for connecting women engineers from UIUC through
+a professional networking portal.
+
+
+

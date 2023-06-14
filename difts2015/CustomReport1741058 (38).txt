@@ -1,0 +1,35 @@
+﻿LastFirstMiddleName	Company	Email_Address	dietary restrictions	RegTypeDescription
+
+Austin, Evan	University of Kansas	e.c.austin@gmail.com		DIFTS only, with tutorial day (not for FMCAD participants)
+
+Cassel, Sofia	Uppsala University	sofia.cassel@it.uu.se		student registration
+
+Dokhanchi, Adel	Arizona State University	adokhanc@asu.edu		student IEEE/ACM member registration
+
+Goldman, Robert P	SIFT, LLC	rpgoldman@sift.net		DIFTS only, with tutorial day (not for FMCAD participants)
+
+Guo, Shengjian	Virginia Tech	guosj@vt.edu		student registration
+
+Kusano, Markus	Virginia Tech	mukusano@vt.edu		student registration
+
+Moore, J Strother	University of Texas at Austin	moore@cs.utexas.edu	Vegetarian	DIFTS only, no tutorial day (not for FMCAD participants)
+
+Niemetz, Aina	Johannes Kepler University Linz	aina.niemetz@jku.at	Vegetarian (no meat, fish, eggs)	student registration
+
+Preiner, Mathias	JKU Linz	mathias.preiner@jku.at		student registration
+
+Sörensson, Niklas	Mentor Graphics	niklasso@gmail.com		regular registration
+
+Stewart, Daryl	ARM Ltd.	daryl.stewart@arm.com	Wheat intolerant	regular registration
+
+Subramanyan, Pramod	Princeton University	psubrama@princeton.edu	vegetarian	student IEEE/ACM member registration
+
+Sung, Chungha	Virginia Tech	sch8906@vt.edu		student registration
+
+Theobald, Michael	D. E. Shaw Research	Michael.Theobald@DEShawResearch.com		IEEE/ACM member registration
+
+Wang, Chao	Virginia Tech	chaowang@vt.edu		IEEE/ACM member registration
+
+Wu, Meng	Virginia Tech	mengwu@vt.edu		student registration
+
+zhang, Lu	Virginia Tech	zhanglu@vt.edu		student registration

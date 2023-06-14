@@ -1,0 +1,120 @@
+***************************************************************************
+                             DIFTS'15
+            DESIGN and IMPLEMENTATION of FORMAL TOOLS and SYSTEMS
+                         CALL FOR PAPERS
+***************************************************************************
+ 
+Third International Workshop on Design and Implementation of Formal Tools
+and Systems (co-located with FMCAD 2015, MEMOCODE 2015, and SAT 2015)
+
+http://www.ece.vt.edu/chaowang/difts2015/
+ 
+Austin, TX, USA
+September 26-27, 2015
+ 
+ 
+IMPORTANT DATES
+ 
+Abstract submission:        July 15, 2015 (extended)
+Paper submission:           July 15, 2015
+Author notification:        August 10, 2015
+ 
+ 
+DIFTS (Design and Implementation of Formal Tools and Systems) workshop 
+emphasizes insightful experiences in formal tools and systems design. 
+The workshop provides an opportunity for discussing engineering aspects and 
+various design decisions required to put formal tools and systems into 
+practical use. In the past, we have invited speakers who have shared their 
+deep insights and discussed the practices followed in the Industry towards 
+adopting formal methods. It provides a forum for sharing challenges and 
+solutions that are original with ground breaking results.
+
+The DIFTS workshop is co-located with FMCAD 2015 and SAT 2015. The regular 
+talks of DIFTS workshop will be on September 26, 2015.  The full-day 
+tutorial (joint with FMCAD 2015, SAT 2015, and MEMOCODE 2015) will be 
+on September 27, 2015.
+
+
+TOPICS OF INTEREST
+
+DIFTS takes a broad view of the formal tools/systems area, and solicits 
+contributions from domains including, but not restricted to, decision 
+procedures, verification, testing, validation, diagnosis, debugging, and 
+synthesis. This workshop encourages and appreciates system development 
+activities, and facilitates transparency in the experimentation. It will also 
+serve as a platform to discuss open problems and future challenges in 
+practicing formal methods.
+
+
+INVITED SPEAKERS
+
+Flemming Andersen, Intel, USA
+Shobha Vasudevan, UIUC, USA
+
+ 
+SUBMISSION
+ 
+The workshop specifically solicits contributions with substantial engineering 
+details that often do not get published but have significant practical impact.
+
+Papers in the following two categories are solicited: (a) system category 
+(10 pages, double column, 11pt), and (b) tool category (8 pages, double 
+column, 11pt).
+
+In the system category, we invite papers that have original ideas accompanied 
+with novel integration techniques, adequate design/implementation details, 
+important design choices made and explored, and good experimental results.
+
+In the tool category, we invite papers that focus primarily on the engineering 
+aspects of some known/popular algorithm, with significant emphasis on the 
+design/implementation details, and various design choices made to advance 
+current state-of-the-art approaches.
+
+The page limit for submissions in the system category is 10 pages in double 
+column format and for submissions in the tool category is 8 pages in double 
+column format.
+
+Submission of papers should be made electronically in PDF format via EasyChair.
+
+ 
+EVALUATION
+ 
+To keep maintain uniformity and fairness in the reviewing process, the program
+committee will evaluate the technical contribution of each submission based on
+the following guidelines: the paper should provide enough details for others to
+reproduce the results; and should solve a clearly-stated problem that is
+significant and has wide interest; and the paper should provide enough
+motivation for the design choices made. Overall, the paper should also clearly
+identify what the main contributions of the work are.
+
+PUBLICATION
+ 
+All accepted contributions will be included in informal proceedings.
+High quality submissions will be considered for a special issue
+of journals such as  FMSD (Formal Methods in System Design) or
+IEEE TC (Transactions on Computers).
+
+ 
+ORGANIZATION
+ 
+PROGRAM CHAIRS
+ 
+Malay Ganai, Atrenta, USA
+Chao Wang, Virginia Tech, USA
+
+PROGRAM COMMITTEE
+
+Erika Abraham, RWTH Aachen University, Germany
+Malay Ganai, Atrenta, USA
+Alberto Griggio, FBK-IRST, Italy
+Daniel Grosse, University of Bremen, Germany
+William Hung , Synopsys, Inc., USA
+Priyank Kalla, University of Utah, USA
+Joao Marques-Silva, University College Dublin, Ireland
+Sandip Ray , Intel Corporation, USA
+Alper Sen, Bogazici University, Turkey
+Andreas Veneris, University of Toronto, Canada
+Chao Wang, Virginia Tech, USA
+
+
+

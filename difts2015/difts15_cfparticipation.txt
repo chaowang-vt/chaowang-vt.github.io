@@ -1,0 +1,46 @@
+------------------------------------------------
+DIFTS 2015 Call for Participation
+------------------------------------------------
+ 
+Third International Workshop on Design and Implementation of Formal Tools
+and Systems (co-located with FMCAD 2015, MEMOCODE 2015, and SAT 2015)
+
+Austin, TX, USA
+http://www.ece.vt.edu/chaowang/difts2015/
+
+Early registration ends on September 4.
+
+------------------------------------------------ 
+ 
+DIFTS (Design and Implementation of Formal Tools and Systems) workshop 
+emphasizes insightful experiences in formal tools and systems design. 
+The workshop provides an opportunity for discussing engineering aspects and 
+various design decisions required to put formal tools and systems into 
+practical use. In the past, we have invited speakers who have shared their 
+deep insights and discussed the practices followed in the Industry towards 
+adopting formal methods. It provides a forum for sharing challenges and 
+solutions that are original with ground breaking results.
+
+The regular talks of DIFTS workshop will be on September 26, 2015.  The 
+full-day tutorial (joint with FMCAD 2015, SAT 2015, and MEMOCODE 2015) 
+will be on September 27, 2015.
+
+
+INVITED SPEAKERS
+
+Flemming Andersen, Intel, USA, "From Highly Efficient Formal Verification 
+in Selected Areas to Success in an SOC-IP World"
+
+Shobha Vasudevan, UIUC, USA, "Crucial Character Roles for Formal 
+Methods in Contemporary Verification"
+
+
+PROGRAM and VENUE
+
+See http://www.faculty.ece.vt.edu/chaowang/difts2015/#program for the preliminary program.
+
+ 
+REGISTRATION
+
+See http://www.faculty.ece.vt.edu/chaowang/difts2015/#registration for on-line registration.
+

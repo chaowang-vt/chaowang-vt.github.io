@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DIFTS15</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<script type="text/javascript">
+
+function expand(id) {
+var idImg = id+"_img";
+var idA = id+"_anchor";
+document.getElementById(id).style.display = "block";
+document.getElementById(idImg).src = "collapse.gif";
+document.getElementById(idA).href = "javascript: collapse('"+id+"');";
+}
+function collapse(id) {
+var idImg = id+"_img";
+var idA = id+"_anchor";
+document.getElementById(id).style.display = "none";
+document.getElementById(idImg).src = "expand.gif";
+document.getElementById(idA).href = "javascript: expand('"+id+"');";
+}
+function exp(id) {
+var idA = id+"_anchor";
+document.getElementById(id).style.display = "block";
+document.getElementById(idA).href = "javascript: cps('"+id+"');";
+}
+function cps(id) {
+var idA = id+"_anchor";
+document.getElementById(id).style.display = "none";
+document.getElementById(idA).href = "javascript: exp('"+id+"');";
+}
+</script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+
+    <!-- Subhead
+    ================================================== -->
+    <header class="jumbotron subhead" id="overview">
+      <div class="container">
+        <h1>DIFTS15</h1>
+        <p class="lead">International Workshop on Design and Implementation of Formal Tools and Systems</p>
+        <p class="lead">Austin, Texas USA, September 26-27, 2015</p>
+        <p class="lead">co-located with FMCAD15, MEMOCODE15, and SAT15</p>
+      </div>
+    </header>
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+
+    <div class="span3 bs-docs-sidebar">
+      <ul class="nav nav-list bs-docs-sidenav" data-offset-top="300"   data-spy="affix">
+
+
+    <h3> Sponsored by </h3>
+    <a href="http://www.synopsys.com/"> <img src="synopsys_color.jpg" width="90%" height="90%" > </a> 
+
+        <li><a href="#call-for-papers"><i class="icon-chevron-right"></i>Call for Papers</a></li>
+        <li><a href="#important-dates"><i class="icon-chevron-right"></i>Important Dates</a></li>
+		<li><a href="#past-workshops"><i class="icon-chevron-right"></i>Past Workshops</a></li>
+        <li><a href="#committees"><i class="icon-chevron-right"></i>Committees</a></li>
+        <li><a href="#invited-speakers"><i class="icon-chevron-right"></i>Invited Speakers</a></li> 
+        <li><a href="#paper-submission"><i class="icon-chevron-right"></i>Paper Submission</a></li>
+<!--	<li><a href="#accepted-papers"><i class="icon-chevron-right"></i>Accepted Papers</a></li> 
+-->
+
+	    <li><a href="#registration"><i class="icon-chevron-right"></i>Registration</a></li>
+	    <li><a href="#venue"><i class="icon-chevron-right"></i>Venue</a></li>
+	<li><a href="#program"><i class="icon-chevron-right"></i>Program</a></li> 
+
+      </ul>
+    </div>
+
+    <div class="span9">
+
+      <section id="call-for-papers">
+        <div class="page-header">
+          <h1>Call for Papers</h1>
+        </div>
+<p>
+<h3>
+Workshop Scope</h3>
+
+<p>
+DIFTS (Design and Implementation of Formal Tools and Systems) workshop
+emphasizes insightful experiences in formal tools and systems design.
+The workshop provides an opportunity for discussing engineering aspects and various design decisions
+required to put formal tools and systems into practical use. In the past,
+we have invited speakers who have shared their deep insights
+and discussed the practices followed in the Industry towards adopting formal methods.
+It provides a forum for sharing challenges and solutions that are original with ground breaking results.
+
+<p>
+The DIFTS workshop is co-located with 
+<a href="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD15/index.shtml">FMCAD 2015</a>,
+<a href="http://memocode.irisa.fr/2015/">MEMOCODE 2015</a>,
+and
+<a href="http://www.cs.utexas.edu/~marijn/sat15/">SAT 2015</a>.
+The regular talks of DIFTS workshop will be on September 26, 2015.  
+The full-day tutorial (joint with FMCAD and SAT) will be on September 27, 2015.
+
+
+<p>
+<h3>
+Topics of Interest</h3>
+
+<p>
+DIFTS takes a broad view of the formal tools/systems area, and solicits
+contributions from domains including, but not restricted to, decision
+procedures, verification, testing, validation, diagnosis, debugging, and
+synthesis.
+
+This workshop encourages and appreciates system development activities, and
+facilitates transparency in the experimentation.  It will also serve as a
+platform to discuss open problems and future challenges in practicing formal
+methods.
+
+
+
+
+Call for Paper <a href="difts15_cfp.txt">CFP (txt)</a>.
+
+      </section>
+
+      <section id="important-dates">
+        <div class="page-header">
+          <h1>Important Dates</h1>
+        </div>
+
+        <ul>
+          <li>Abstract Submission:   <del>  July 7, 2015 </del> July 15, 2015. </li>
+          <li>Paper Submission:     July 15, 2015 (extended). </li>
+          <li>Author Notification:  August 10, 2015.</li>
+
+        </ul>
+       
+      </section>
+
+      <section id="past-workshops">
+        <div class="page-header">
+          <h1>Past Workshops</h1>
+        </div>
+
+        <ul>
+        <li><a href=" https://web.archive.org/web/20121028101003/http:/www.nec-labs.com/research/system/systems_SAV-website/DIFTS11/index.html">DIFTS11</a> (Austin, Texas, USA)   </li>
+        <li><a href="http://www.cmpe.boun.edu.tr/difts13/">DIFTS13</a> (Portland, Oregon, USA)  </li> 
+        <li><a href="http://fmgroup.polito.it/cabodi/difts2014/">DIFTS14</a> (Lausanne, Switzerland) </li>
+        </ul>
+  
+      </section>
+      <section id="committees">
+        <div class="page-header">
+          <h1>Committees</h1>
+        </div>
+          <h3>Program Chairs</h3>
+        <ul>
+          <li> <a href="https://scholar.google.com/citations?user=y35QkAIAAAAJ&hl=en"> Malay K. Ganai</a>, Synopsys, Inc.,  USA </li>
+          <li><a href="http://www.ece.vt.edu/chaowang/"> Chao Wang</a>, Virginia Tech, USA </li>
+        </ul>
+          <h3>Local Arrangement Chair</h3>
+        <ul>
+          <li> <a href="http://adnanaziz.com/"> Adnan Aziz</a>, UT Austin,  USA </li>
+        </ul>
+          <h3>Program Committee</h3>
+        <ul>
+
+         <li> <a href="http://www-i2.informatik.rwth-aachen.de/i2/eab"> Erika Abraham</a>, RWTH Aachen University, Germany</li>
+         <li> <a href="https://scholar.google.com/citations?user=y35QkAIAAAAJ&hl=en"> Malay K. Ganai</a>, Synopsys, Inc., USA </li>
+	 <li> <a href="http://es.fbk.eu/people/griggio/"> Alberto Griggio</a>, FBK-IRST, Italy </li>
+         <li> <a href="http://www.informatik.uni-bremen.de/~grosse/"> Daniel Grosse</a>, University of Bremen, Germany</li>
+         <li> <a href="http://web.cecs.pdx.edu/~whung/"> William Hung    </a>, Synopsys, Inc., USA </li>
+ 	 <li> <a href="http://www.ece.utah.edu/~kalla"> Priyank	Kalla</a>, University of Utah, USA</li>
+ 	 <li> <a href="http://www.csi.ucd.ie/staff/jpms/"> Joao Marques-Silva</a>, University College Dublin, Ireland	</li>
+         <li> <a href="http://www.cs.utexas.edu/~sandip/"> Sandip Ray      </a>, Intel Corporation, USA </li>
+	 <li> <a href="http://www.cmpe.boun.edu.tr/~sen/"> Alper Sen</a>, Bogazici University, Turkey </li>
+	 <li> <a href="http://www.eecg.toronto.edu/~veneris"> Andreas Veneris</a>, University of Toronto, Canada</li>			
+         <li><a href="http://www.ece.vt.edu/chaowang/"> Chao Wang</a>, Virginia Tech, USA </li>
+
+        </ul>
+
+      </section>
+
+	<section id="invited-speakers"> 
+	<div class="page-header"> 
+	<h1>Invited Speakers</h1> 
+	</div> 
+	<ul>
+
+	<h4> <a href="flemming_andersen.txt"> Flemming Andersen</a>, Intel, USA </h4>
+
+	<p> <b> 
+From Highly Efficient Formal Verification in Selected Areas to Success in an SOC-IP World</b>
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseOne_anchor" href="javascript: exp('collapseOne');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseOne" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+
+Over the past twenty years the hardware industry gained a lot of experience with practical application of formal methods- and verification. From originally being able to formally verify only RTL components with hundreds of gates, the tools today supports millions of gates. In addition, experience indicates that a combination of functional equivalence verification techniques combined with assertion based temporal logic verification of control logic is required to efficiently handle the size, functionality, and complexity of design components today. The most successful application areas have naturally been those like arithmetic, decoders/encoders, cache coherence protocols, RAS/ECC, and other areas where solid standards such as the IEEE 754 floating point standard rigorously define what the formal specifications should be. Areas where no standards are given, keep on being a challenge for formal verification since the investment in specifications are often more or less useless when the next product is being developed. Hence, the introduction of IP-components and sub-systems with standardized interfaces- and protocols to develop SOC products enables much stronger use of formal methods- and verification if used correctly.  In this presentation we will look at different successful formal verification areas and discuss how these can be used as a model- and method for success in an SOC-IP world.
+
+    </div>
+  </div>
+</div>
+
+
+
+
+        <h4> <a href="shobha_vasudevan.txt"> Shobha Vasudevan</a>, UIUC, USA </h4>
+
+	<p><b>
+        Crucial Character Roles for Formal Methods in Contemporary Verification</b>
+
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseTwo_anchor" href="javascript: exp('collapseTwo');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseTwo" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+
+In this talk, I will present the script that stars formal methods not in the lead roles, but in character roles that are seminal to the storyline. I will narrate this success story in two parts. 
+
+In the first part, I will talk about GoldMine, a suite of algorithms for automatic assertion generation that use a combination of machine learning and formal analysis. I will discuss our methods for assertion evaluation as an allied topic to demonstrate the goodness of the GoldMine solution. I will also outline briefly the widespread applicability of the "GoldMine principle", or the combination of formal model based analysis with data driven, statistical methods in many fields like debugging, diagnostics and data analytics. 
+
+In the second part, I will talk about a set of analog and mixed signal validation methods that provide value and efficiency over traditional Monte Carlo simulations. These methods are based on rigorous geometric analysis combined with simulation methods from robot motion planning. I will discuss worst case behavior or "eye diagram" analysis and analog test compaction as the applications of this technology. 
+
+I will conclude by highlighting the importance of formal methods and strategic ways to scale them in an "oscar winning" performance. 
+
+
+    </div>
+  </div>
+</div>
+
+
+      </section>
+
+
+      <section id="paper-submission">
+        <div class="page-header">
+          <h1>Paper Submission</h1>
+        </div>
+
+The workshop specifically solicits contributions with substantial
+engineering details that often do not get published but have
+significant practical impact.
+ 
+<p>
+Papers in the following two categories are solicited: (a) system
+category (10 pages, double column, 11pt), and (b) tool category (8
+pages, double column, 11pt).
+ 
+<p>
+In the system category, we invite papers that have original ideas
+accompanied with novel integration techniques, adequate
+design/implementation details, important design choices made and
+explored, and good experimental results.
+ 
+<p>
+In the tool category, we invite papers that focus primarily on the
+engineering aspects of some known/popular algorithm, with significant
+emphasis on the design/implementation details, and various design
+choices made to advance current state-of-the-art approaches.
+ 
+<p>
+The page limit for submissions in the system category is 10 pages in
+double column format and for submissions in the tool category is 8
+pages in double column format.
+ 
+<p>
+<p>
+Submission of papers should be made electronically in PDF format via
+EasyChair
+<a href="https://www.easychair.org/conferences/?conf=difts15">Submission Page</a>.
+
+          <h3>Evaluation</h3>
+
+<p>
+To keep maintain uniformity and fairness in the reviewing process, the
+program committee will evaluate the technical contribution of each
+submission based on the following guidelines: the paper should provide
+enough details for others to reproduce the results; and should solve a
+clearly-stated problem that is significant and has wide interest; and
+the paper should provide enough motivation for the design choices
+made. Overall, the paper should also clearly identify what the main
+contributions of the work are.
+
+          <h3>Publication</h3>
+
+<p>
+All accepted contributions will be included in informal proceedings.
+High quality submissions will be considered for a special issue of
+journals such as FMSD (Formal Methods in System Design) or IEEE TC
+(Transactions on Computers).
+</section>
+
+<!--
+       <section id="accepted-papers"> 
+         <div class="page-header"> 
+           <h1>Accepted Papers</h1> 
+         </div> 
+
+	   <li> Aina Niemetz, Mathias Preiner, Armin Biere and Andreas  Frohlich. <b>Improving Local Search for Bit-Vector Logics in SMT with Path Propagation</b>
+	   </li>
+	   <p>
+	   <li> Robert P. Goldman, David Musliner and Michael Boldt. <b>Heuristic Search for Bounded Model Checking of Probabilistic Automata</b>
+	   </li>
+	   <p>
+
+	   <li> Sofia Cassel, Falk Howar and Bengt Jonsson. <b>RALib: A LearnLib extension for inferring EFSMs</b>
+	   </li>
+	   <p>
+
+	   <li> Matt Kaufmann and J Strother Moore. <b>Well-Formedness Guarantees for ACL2 Metafunctions and Clause Processors</b>
+	   </li>
+	   <p>
+
+	   <li> Evan Austin and Perry Alexander. <b>Challenges in Implementing an LCF-Style Proof System with Haskell</b>
+	   </li> 
+	   <p>
+
+	   <li> Michael Boldt, Robert Goldman and David Musliner. <b>Offline Monte Carlo Tree Search for Statistical Model Checking of Markov Decision Processes</b>
+	   </li>
+	   
+
+       </section> 
+-->
+
+
+	   
+        <section id="registration">
+        <div class="page-header">
+          <h1>Registration</h1>
+        </div>
+
+Registration fees for the DIFTS workshop and co-located conference (FMCAD + Tutorial) are as follows:
+
+<p>
+
+<TABLE BORDER="2" ALIGN="CENTER">
+
+<TR><TD>                                     </TD><TD>  <b>Early Registration*</b>    </TD><TD>  <b>Late Registration</b>    </TD></TR>
+
+<TR ALIGN="CENTER"><TD> DIFTS add-on (with FMCAD and Tutorial)    </TD><TD>  $100      </TD><TD>  $100    </TD></TR>
+<TR ALIGN="CENTER"><TD ALIGN="LEFT"> DIFTS + Tutorial (without FMCAD)    </TD><TD>  $250      </TD><TD>  $300    </TD></TR>
+<TR ALIGN="CENTER"><TD> DIFTS only (without FMCAD and Tutorial) </TD><TD>  $135      </TD><TD>  $180    </TD></TR>
+
+</TABLE>
+
+<p>
+<p> *Early registration ends on September 4, 2015.
+<p>
+
+Please follow the link:
+<a href="https://www.regonline.com/Register/Checkin.aspx?EventID=1741058">Registration Page</a>.
+
+
+      </section>
+
+
+
+	   
+        <section id="venue">
+        <div class="page-header">
+          <h1>Venue </h1>
+        </div>
+
+	Conference Location (<a href="http://www.meetattexas.com/page/directions">Direction</a>) (<a href="https://www.google.com/maps/place/1900+University+Ave,+Austin,+TX+78705/@30.281578,-97.740217,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b59e74e05327:0x7aacf7c7b7a87310">Map</a>)
+	<p>
+	<p>
+	AT&T Executive 	Education and Conference Center<br>
+	1900 University Avenue<br>
+	Austin, Texas, 78705, USA<br>
+	+1 512 404 1900<br>
+	<p>
+	The workshop on Sept 26 will be in Room 202.
+	<p>
+        <img src="http://www.cs.utexas.edu/~hunt/FMCAD/FMCAD11/venue/outside.jpg">
+
+	<p>
+	<p>
+        <b> Sept 27 </b>: POB, Room 2.302  (Joint tutorial with FMCAD and SAT) 
+	<p>
+	<p>
+        The tutorial on Sept 27 will be held in
+	the <a href="http://www.utexas.edu/maps/main/buildings/pob.html">POB
+	building</a> on the campus
+	of <a href="http://www.utexas.edu/">The University of Texas at
+	Austin</a>.
+	<p>
+	<img src="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD15/images/ACES.jpg">
+
+ 
+      </section>
+
+
+
+	<section id="program"> 
+          <div class="page-header"> 
+            <h1>Program</h1> 
+	  </div>
+<!--
+	  <div style="text-align:center"><ul><li> <a href="difts14-program.pdf">Final Program (PDF) </a></li></ul>
+	  </div>
+-->
+
+	  <table align="center" cellpadding="10%" cellspacing="0" border="1" width="70%">
+	    <tr bgcolor="#F2F2F2"><td width="100" colspan="2" cellpadding="20%">
+		<div align="center">
+		  <strong>DIFTS Workshop Program (Sept 26, 2015) </strong> <br>
+		  (Room 202, AT&T Center)
+		</div>
+	      </td>
+	    </tr>
+
+	    <tr><td><div align="left"> 8:00-9:00</div> </td> <td><strong>Registration and Breakfast</strong></td> </tr>
+	    
+	    <tr ><td><div align="left"> 9:00-9:15 </div> </td> <td><strong> Welcome</strong></td> </tr>
+
+
+	    <tr bgcolor="#F2F2F2"><td><div align="left">&nbsp</div> </td> <td><strong>System</strong> </td> </tr>
+	    <tr><td><div align="left"> 9:15-9:45 </div> </td> <td>
+		<p>  Aina Niemetz, Mathias Preiner, Armin Biere and Andreas  Frohlich  <br>
+</br>
+<em>Improving Local Search for Bit-Vector Logics in SMT with Path Propagation</em>
+
+<br/>
+<a href="papers/paper_2.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseThree_anchor" href="javascript: exp('collapseThree');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseThree" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Bit-blasting is the main approach for solving
+word-level constraints in SAT Modulo Theories (SMT) for
+bit-vector logics. However, in practice it often reaches its
+limits, even if combined with sophisticated rewriting and
+simplification techniques. In this paper, we extended a recently
+proposed alternative based on stochastic local search
+(SLS) and improve neighbor selection based on down
+propagation of assignments. We further reimplemented
+the previous SLS approach in our SMT solver Boolector
+and confirm its effectiveness. We then added our novel
+propagation-based extension and provide an extensive experimental
+evaluation, which suggests that combining these
+techniques with Boolector’s bit-blasting engine enables
+Boolector to solve substantially more instances.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr><td><div align="left"> 9:45-10:15 </div> </td> <td>
+		<p> Matt Kaufmann and J Strother Moore<br>
+</br>
+<em>Well-Formedness Guarantees for ACL2 Metafunctions and Clause Processors</em>
+
+<br/>
+<a href="papers/paper_1.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseFour_anchor" href="javascript: exp('collapseFour');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseFour" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Some runtime checks can be safely removed
+from code if appropriate program properties are
+proved. We describe how we have applied this
+idea to the ACL2 theorem prover to speed up
+the application of user-defined proof procedures.
+In particular, we discuss how and why we have
+added a new feature to ACL2 that allows the
+user to verify certain well-formedness proper-
+ties of the expressions produced by user-defined
+proof procedures. Of special interest are the is-
+sues of extensibility (how we know that guaran-
+tees proved in one theory are adequate in an-
+other), formalization of the problem, and design
+decisions affecting the user interface.
+    </div>
+  </div>
+</div>
+	    </td></tr>
+
+	    <tr ><td><div align="left"> 10:15-10:30 </div> </td> <td><strong>Coffee Break</strong> </td> </tr>
+
+
+
+	    <tr><td><div align="left">10:30-11:00</div> </td> <td>
+		<p>Evan Austin and Perry Alexander <br>
+</br>
+<em>Challenges in Implementing an LCF-Style Proof System with Haskell </em>
+
+<br/>
+<a href="papers/paper_4.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseFive_anchor" href="javascript: exp('collapseFive');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseFive" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+The predominant, root design among current
+proof assistants, the LCF style, is traditionally realized
+through impure, functional languages. Thus, languages
+that eschew side-effects in the name of purity collectively
+represent a largely untapped platform for exploring alternate
+implementations of LCF-style provers. The work in
+this paper details the challenges we have encountered in
+the development of one such implementation, a monadic
+approach to the LCF style tailored to the Haskell programming
+language. The resultant proof system, HaskHOL,
+is introduced and our current work with it is briefly
+discussed.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr><td><div align="left"> 11:00-12:00 </div> </td> <td>
+		<p><strong>1st Invited Talk</strong> by Flemming Andersen, Intel, USA <br>
+</br>
+<em>From Highly Efficient Formal Verification in Selected Areas to Success in an SOC-IP World</em>
+<br/>
+<a href="flemming_andersen.txt">(Bio)</a>
+<!--
+<a href="slides/...pdf">(Slides)</a>
+-->
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseSix_anchor" href="javascript: exp('collapseSix');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseSix" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Over the past twenty years the hardware industry gained a lot of experience with practical application of formal methods- and verification. From originally being able to formally verify only RTL components with hundreds of gates, the tools today supports millions of gates. In addition, experience indicates that a combination of functional equivalence verification techniques combined with assertion based temporal logic verification of control logic is required to efficiently handle the size, functionality, and complexity of design components today. The most successful application areas have naturally been those like arithmetic, decoders/encoders, cache coherence protocols, RAS/ECC, and other areas where solid standards such as the IEEE 754 floating point standard rigorously define what the formal specifications should be. Areas where no standards are given, keep on being a challenge for formal verification since the investment in specifications are often more or less useless when the next product is being developed. Hence, the introduction of IP-components and sub-systems with standardized interfaces- and protocols to develop SOC products enables much stronger use of formal methods- and verification if used correctly.  In this presentation we will look at different successful formal verification areas and discuss how these can be used as a model- and method for success in an SOC-IP world.
+
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr><td><div align="left"> 12:00-14:00 </div> </td> <td><strong>Lunch Break</strong></td></tr>
+
+
+	    <tr bgcolor="#F2F2F2"><td><div align="left">&nbsp </div> </td> <td><strong>Tools</strong> </td> </tr>	
+
+	    <tr><td><div align="left">14:00-14:30</div> </td> <td>
+		<p> Robert P. Goldman, David Musliner and Michael Boldt<br>
+</br>
+<em>Heuristic Search for Bounded Model Checking of Probabilistic Automata</em>
+
+<br/>
+<a href="papers/paper_3.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseSeven_anchor" href="javascript: exp('collapseSeven');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseSeven" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+We describe a new method for bounded model-checking
+of probabilistic automata (PAs), based on heuristic search
+and integrated into the PRISM model-checker. PA models
+include both probabilistic transitions and nondeterministic
+choice transitions. Our search-based approach aims to address
+weaknesses in statistical and dynamic-programming
+approaches to checking bounded PCTL properties of probabilistic
+automata. To model-check properties of PA models,
+we must demonstrate that the property will be satisfied even
+in the face of an adversary that optimally resolves nondeterministic
+choices. We use heuristically guided AO* search
+to find the optimal adversary policy and estimate the probability
+of properties. We adapt techniques from Artificial
+Intelligence Planning to develop a heuristic that is based
+on a relaxation of the underlying probability model. This
+heuristic provides critical guidance to the search algorithm:
+without it, even very small models are unsolvable. We have
+implemented our algorithm in the PRISM model-checker,
+and show cases where it outperforms PRISM’s dynamic programming
+methods. We also describe promising directions
+for future work in search-based PA model-checking, notably
+introducing further abstraction into the heuristic to address
+memory issues.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr><td><div align="left">14:30-15:00</div> </td> <td>
+		<p> Sofia Cassel, Falk Howar and Bengt Jonsson <br>
+</br>
+<em>RALib: A LearnLib extension for inferring EFSMs</em>
+
+<br/>
+<a href="papers/paper_5.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseEight_anchor" href="javascript: exp('collapseEight');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseEight" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Active learning of register automata infers
+extended finite state machines (EFSMs) with registers
+for storing values from a possibly infinite domain, and
+transition guards that compare data parameters to registers.
+In this paper, we present RALib, an extension to
+the LearnLib framework for automata learning. RALib
+provides an extensible implementation of active learning
+of register automata, together with modules for output,
+typed parameters, mixing different tests on data values,
+and directly inferring models of Java classes. RALib also
+provides heuristics for finding counterexamples as well as
+a range of performance optimizations. Compared to other
+tools for learning EFSMs, we show that RALib is superior
+with respect to expressivity, features, and performance.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr ><td><div align="left"> 15:00-15:30 </div> </td> <td><strong>Coffee Break</strong> </td> </tr>
+
+	    <tr><td><div align="left">15:30-16:00</div> </td> <td>
+		<p> Michael Boldt, Robert Goldman and David Musliner <br>
+</br>
+<em> Offline Monte Carlo Tree Search for Statistical Model Checking of Markov Decision Processes </em>
+
+<br/>
+<a href="papers/paper_6.pdf">(Paper)</a>
+<!--
+<a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseNine_anchor" href="javascript: exp('collapseNine');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseNine" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+To find the optimal policy for large Markov Decision
+Processes (MDPs), where state space explosion
+makes analytic methods infeasible, we turn to statistical
+methods. In this work, we apply Monte Carlo
+Tree Search to learning the optimal policy for a MDP
+with respect to a Probabilistic Bounded Linear Temporal
+Logic property. After we have the policy, we
+can proceed with statistical model checking or probability
+estimation for the property against the MDP.
+We have implemented this method as an extension to
+the PRISM probabilistic model checker, and discuss
+its results for several case studies.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+
+	    <tr><td><div align="left"> 16:00-17:00 </div> </td> <td>
+		<p> <strong> 2nd Invited Talk</strong> by  Shobha Vasudevan, UIUC, USA<br>
+</br>
+<em> Crucial Character Roles for Formal Methods in Contemporary Verification  </em>
+<br/>
+<a href="shobha_vasudevan.txt">(Bio)</a>
+<!--
+<a href="slides/.pdf">(Slides)</a>
+-->
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseTen_anchor" href="javascript: exp('collapseTen');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseTen" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+
+In this talk, I will present the script that stars formal methods not in the lead roles, but in character roles that are seminal to the storyline. I will narrate this success story in two parts. 
+
+In the first part, I will talk about GoldMine, a suite of algorithms for automatic assertion generation that use a combination of machine learning and formal analysis. I will discuss our methods for assertion evaluation as an allied topic to demonstrate the goodness of the GoldMine solution. I will also outline briefly the widespread applicability of the "GoldMine principle", or the combination of formal model based analysis with data driven, statistical methods in many fields like debugging, diagnostics and data analytics. 
+
+In the second part, I will talk about a set of analog and mixed signal validation methods that provide value and efficiency over traditional Monte Carlo simulations. These methods are based on rigorous geometric analysis combined with simulation methods from robot motion planning. I will discuss worst case behavior or "eye diagram" analysis and analog test compaction as the applications of this technology. 
+
+I will conclude by highlighting the importance of formal methods and strategic ways to scale them in an "oscar winning" performance. 
+
+  </div>
+</div>
+
+	    </td></tr>
+
+
+	  </table>
+	  <span>&nbsp;</span>	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  <table align="center" cellpadding="10%" cellspacing="0" border="1" width="70%">
+	    <tr bgcolor="#F2F2F2"><td width="100" colspan="2" cellpadding="20%">
+		<div align="center">
+		  <strong>Tutorial Day (Sept 27, 2015) </strong> <br>
+		  (Room 2.302, POB Building, UT Austin) <br>
+		  joint with FMCAD and SAT
+		</div>
+	      </td>
+	    </tr>
+
+	    <tr><td><div align="left"> 8:00-9:00</div> </td> <td><strong>Registration and Breakfast</strong></td> </tr>
+
+	    <tr><td><div align="left"> 9:00-10:15 </div> </td> <td>
+		<p> <strong> Andre Platzer </strong>, CMU, USA <br>
+</br>
+<em> Tutorial 1:  Proving Hybrid Systems </em>
+<br/>
+<a href="andre_platzer.txt">(Speaker Bio)</a>
+<!--
+<a href="papers/.pdf">(Paper)</a><a href="slides/.pdf"> (Slides)</a>
+-->
+
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseEleven_anchor" href="javascript: exp('collapseEleven');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseEleven" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Cyber-physical systems (CPS) combine cyber aspects such as communication and computer control with physical aspects such as movement in space, which arise frequently in many safety-critical application domains, including aviation, automotive, railway, and robotics. But how can we ensure that these systems are guaranteed to meet their design goals, e.g., that an aircraft will not crash into another one?
+
+This tutorial focuses on the most elementary CPS model: hybrid systems, which are dynamical systems with interacting discrete transitions and continuous evolutions along differential equations. It describes a compositional programming language for hybrid systems and shows how to specify and verify correctness properties of hybrid systems in differential dynamic logic. Extensions of this logic that support CPS models with more general dynamics will be surveyed briefly.
+
+In addition to providing a strong theoretical foundation for CPS, differential dynamic logics have also been instrumental in verifying many applications, including the Airborne Collision Avoidance System ACAS X, the European Train Control System ETCS, several automotive systems, mobile robot navigation with the dynamic window algorithm, and a surgical robotic system for skull-base surgery. The approach is implemented in the theorem prover KeYmaera X.
+
+
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+
+	    <tr ><td><div align="left"> 10:15-10:30 </div> </td> <td><strong>Coffee Break</strong> </td> </tr>
+
+
+
+	    <tr><td><div align="left"> 10:30-11:45 </div> </td> <td>
+		<p>  <strong> Priyank Kalla </strong>, University of Utah, USA <br>
+</br>
+<em> Tutorial 2: Formal Verification of Arithmetic Datapaths using Algebraic Geometry and Symbolic Computation </em>
+<br/>
+<a href="priyank_kalla.txt">(Speaker Bio)</a>
+<!--
+<a href="papers/.pdf">(Paper)</a><a href="slides/.pdf"> (Slides)</a>
+-->
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseTwelve_anchor" href="javascript: exp('collapseTwelve');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseTwelve" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+      Here is the <a href="priyank_kalla.pdf">PDF</a> of the abstract.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+
+	    <tr ><td><div align="left"> 11:45-14:00 </div> </td> <td><strong>Lunch</strong> </td> </tr>
+
+
+
+	    <tr><td><div align="left"> 14:00-15:15 </div> </td> <td>
+		<p> <strong> Roderick Bloem </strong>, TU Graz, Austria <br>
+</br>
+<em> Tutorial 3:  Reactive Synthesis  </em>
+<br/>
+<a href="roderick_bloem.txt">(Speaker Bio)</a>
+<!--
+<a href="papers/.pdf">(Paper)</a><a href="slides/.pdf"> (Slides)</a>
+-->
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseThirteen_anchor" href="javascript: exp('collapseThirteen');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseThirteen" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+
+
+Synthesis is the question of how to construct a correct system from a specification. In recent years, synthesis has made major steps from a theoretist’s dream towards a practical design tool. While synthesis from a language like LTL has very high complexity, synthesis can be quite practical when we are willing to compromise on the specification formalism. Similarly, we can take a pragmatic approach to synthesize small distributed systems, a problem that is in general undecidable.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+
+	    <tr ><td><div align="left"> 15:15-15:45 </div> </td> <td><strong>Coffee Break</strong> </td> </tr>
+
+
+
+	    <tr><td><div align="left"> 15:45-17:00 </div> </td> <td>
+		<p>  <strong> Isil  Dillig </strong>, UT Austin, USA <br>
+</br>
+<em> Tutorial 4: Abductive Inference and Its Application in Program Analysis, Verification, and Synthesis </em>
+<br/>
+<a href="isil_dillig.txt">(Speaker Bio)</a>
+<!--
+<br/>
+<a href="papers/.pdf">(Paper)</a><a href="slides/.pdf"> (Slides)</a>
+-->
+<div class="accordion-group">
+  <div style="padding:3px; margin-left: 5xp">
+    <a id="collapseFourteen_anchor" href="javascript: exp('collapseFourteen');">
+      Abstract
+    </a>
+  </div>
+  <div id="collapseFourteen" style="padding:3px; margin-left: 10px; display:none"> 
+    <div>
+Abductive inference is a form of backwards logical reasoning that infers likely hypotheses from a given conclusion. In other words, given an invalid implication of the form A => B, abduction asks the question "What formula C do we need to conjoin with the antecedent A so that (i) A & C => B is logically valid and (ii) C is consistent with A?" Abductive reasoning has found many applications in program verification and synthesis, particularly in modular program analysis, invariant generation, and automated inference of missing program expressions. This tutorial will give an overview of logical abduction and algorithms for performing abductive inference. We will also survey several use cases of abductive inference in the context of program analysis, verification, and synthesis.
+    </div>
+  </div>
+</div>
+
+	    </td></tr>
+
+	    <tr ><td><div align="left"> 19:00 </div> </td> <td><strong>FMCAD'15 Reception</strong>: 
+		<a href="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD15/venue.shtml#ReceptionInfo"> Scholz Garten </a>  </td> </tr>
+
+	  </table>
+	  <span>&nbsp;</span>	 
+
+
+
+	</section> 
+	
+	
+<p>
+<p> &nbsp
+<div>
+<p>
+</div>
+
+    </div> <!-- /container -->
+    </div> <!-- /container -->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+
+  </body>
+</html>

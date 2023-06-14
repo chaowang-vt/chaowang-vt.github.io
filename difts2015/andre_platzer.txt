@@ -1,0 +1,11 @@
+Speaker Bio.:
+
+Andr3 Platzer is an Associate Professor of Computer Science at
+Carnegie Mellon University. His interests include logic in computer
+science, cyber-physical systems, programming languages, formal
+methods, and automated theorem proving. He received an ACM Doctoral
+Dissertation Honorable Mention Award, an NSF CAREER Award, the Best
+Paper Awards at TABLEAUX'07 and at FM'09. Andre Platzer was also named
+one of the Brilliant 10 Young Scientists by the Popular Science
+magazine 2009 and one of the AI's 10 to Watch 2010 by the IEEE
+Intelligent Systems Magazine.

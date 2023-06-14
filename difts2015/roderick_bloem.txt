@@ -1,0 +1,15 @@
+Speaker Bio.:
+
+Roderick Bloem received an MS in computer science from Leiden
+University in the Netherlands (1996) and a PhD from the University of
+Colorado at Boulder (2001). His thesis work, under the supervision of
+Fabio Somenzi, was on formal verification using Linear Temporal Logic.
+
+Since 2002, he has been an assistant professor at Graz University of
+Technology and a full profesor since 2008. His research interests are
+in formal methods for the design and verification of digital systems,
+including hardware, software, and combinations such as embedded
+systems. He studies applications of game theory to the automatic
+synthesis of systems from their specifications, connections between
+temporal logics and omega-automata, model checking, and automatic
+fault localization and repair.

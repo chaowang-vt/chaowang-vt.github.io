@@ -1,0 +1,15 @@
+Speaker Bio.:
+
+Priyank Kalla received the Bachelors degree in electronics engineering
+from Sardar Patel University, in 1993, and MS and PhD degrees from the
+Univ. of Massachusetts Amherst in 1998 and 2002, respectively. Since
+2002, he has been a faculty member at the ECE department at the
+Univ. of Utah. He has also worked at Advanced Micro Devices and the
+Digital Equipment Corporation (Alpha CAD & Test group). His areas of
+interest are in Electronic Design Automation and Hardware
+Verification. He was the chair of the IEEE Technical Committee on
+Computer-Aided Network Design (CANDE) 2012, and the General Chair of
+IEEE High-Level Design Validation and Test Workshop (HLDVT) 2009. He
+is a recipient of the US National Science Foundation Faculty Early
+Career Development (CAREER) Award, and the ACM Trans. on Design
+Automation 2009 best paper award.
